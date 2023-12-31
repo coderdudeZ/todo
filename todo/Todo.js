@@ -1,4 +1,4 @@
-import TodoListComponent from "./ToDoList.js"
+import TodoListComponent from "./TodoList.js"
 import TodoAddComponent from "./TodoAdd.js"
 import { TodoListItemDeleteButtonComponent } from "./TodoListItem.js"
 
