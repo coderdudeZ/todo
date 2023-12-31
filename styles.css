@@ -1,0 +1,26 @@
+ol#list {
+  margin: 0 auto; /* vertical margin: 0, horizontal: auto */
+  list-style: none;
+  padding: 0;
+}
+
+ol#list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ol#list li span {
+  flex: 1;
+}
+
+ol#list li span.done {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0, 0.2);
+}
+
+ol#list li button {
+  background-color: transparent;
+  border: none;
+  color: red;
+}
